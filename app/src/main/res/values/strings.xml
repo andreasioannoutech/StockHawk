@@ -1,0 +1,56 @@
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+  <!-- Titles -->
+  <string name="app_name">Stock Hawk</string>
+  <string name="chart_activity_name">Line Chart</string>
+  <string name="settings_label">Settings</string>
+
+  <string name="yql_api_key" translatable="false">API KEY HERE --- REPLACE ANY '&' symbol in the api with the '&amp;'</string>
+
+  <!-- MENU Related -->
+  <string name="action_settings">Settings</string>
+  <string name="action_refresh">Refresh</string>
+  <string name="action_change_units">Change Units</string>
+  <string name="chart_period_key" translatable="false">chart_period_key</string>
+  
+  <!-- Settings Preference Related -->
+  <string name="prefs_chart_period_label">Chart Period</string>
+  <string name="prefs_chart_period_key" translatable="false">period</string>
+  <string name="prefs_chart_period_14days" translatable="false">2</string>
+  <string name="stocks_activity_key" translatable="false">my_stocks_activity</string>
+
+  <!-- FAB Related -->
+  <string name="symbol_search">Symbol Search</string>
+  <string name="content_test">Search for a Stock Symbol</string>
+  <string name="input_hint" translatable="false">FB</string>
+  <string name="input_prefill"></string>
+
+  <!--Sync Adapter Related-->
+  <string name="sync_account_type" translatable="false">stockhawk.android.sam_chordas.com</string>
+  <string name="content_authority" translatable="false">com.sam_chordas.android.stockhawk.data.QuoteProvider</string>
+  <string name="sync_mode_key" translatable="false">sync_mode</string>
+  <string name="sync_symbol_key" translatable="false">symbol</string>
+  <string name="api_status_key" translatable="false">api_status</string>
+
+  <!-- EMPTY DATABASE MESSAGES -->
+  <string name="empty_quotes_list">No quotes saved.</string>
+  <string name="empty_quotes_list_no_network">No updated quotes available. Check your internet connectivity and try again.</string>
+  <string name="empty_quotes_list_server_down">No updated quotes available. The server is not returning any data.</string>
+  <string name="empty_quotes_list_server_error">No updated quotes available. The server is not returning valid data. Check for an updated version of the StockHawk app.</string>
+  <string name="empty_quotes_list_invalid_input">Invalid stock entry.</string>
+
+  <!-- DUMMY DATA Related -->
+  <string name="dummy_data_used_key" translatable="false">dummy_data_used</string>
+
+  <!-- Toast messages -->
+  <string name="toast_try_again">Something went wrong. Please try again.</string>
+  <string name="toast_already_saved">This stock is already saved!</string>
+  <string name="toast_setting_saved">Changes Saved!</string>
+
+  <!-- Content Description Related -->
+  <string name="content_description_fab">Add new quotes button.</string>
+  <string name="content_description_symbol">Stock: <xliff:g id="condition">%1$s</xliff:g></string>
+  <string name="content_description_bid_price">Bid price: <xliff:g id="condition">%1$s</xliff:g></string>
+  <string name="content_description_change">Change of: <xliff:g id="condition">%1$s</xliff:g></string>
+
+
+</resources>

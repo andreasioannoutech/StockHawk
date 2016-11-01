@@ -1,0 +1,43 @@
+<resources>
+
+  <!-- Base application theme. -->
+  <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="toolbarStyle">@style/Toolbar</item>
+  </style>
+
+  <style name="PercentChangeTextStyle">
+    <item name="android:textSize">20sp</item>
+    <item name="android:textColor">#FFF</item>
+    <item name="android:textStyle">bold</item>
+  </style>
+
+  <style name="BidPriceTextStyle">
+    <item name="android:textSize">20sp</item>
+  </style>
+
+  <style name="StockSymbolTextStyle">
+    <item name="android:textSize">25sp</item>
+    <item name="android:textAllCaps">true</item>
+  </style>
+
+  <style name="AppTheme.Main" parent="@style/AppTheme"/>
+
+  <style name="AppTheme.Chart" parent="@style/AppTheme" />
+
+  <style name="AppTheme.Settings" parent="Theme.AppCompat">
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+  </style>
+
+  <style name="Toolbar" parent="Widget.AppCompat.Toolbar">
+    <item name="android:background">@color/colorPrimary</item>
+    <item name="popupTheme">@style/Theme.AppCompat</item>
+  </style>
+
+  <style name="Toolbar.Overlay" parent="ThemeOverlay.AppCompat.ActionBar">
+    <item name="android:background">@color/colorPrimary</item>
+  </style>
+
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:title="@string/prefs_chart_period_label"
+        android:key="@string/prefs_chart_period_key"
+        android:entries="@array/prefs_chart_period_entries"
+        android:entryValues="@array/prefs_chart_period_entryValues"
+        android:defaultValue="@string/prefs_chart_period_14days"/>
+
+</PreferenceScreen>
