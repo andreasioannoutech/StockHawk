@@ -1,6 +1,6 @@
 Udacity Android Developer Nanodegree project
 
-Improve app and implement Material Design
+Finding and handling error cases, adding accessibility features, allowing for localization, adding a widget, and adding a library.
 
 --API KEY NOTE--
 
