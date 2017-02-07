@@ -1,4 +1,8 @@
-API KEY NOTE
+Udacity Android Developer Nanodegree project
+
+Improve app and implement Material Design
+
+--API KEY NOTE--
 
 GO TO STRINGS XML FILE
 
