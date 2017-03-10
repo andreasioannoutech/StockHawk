@@ -1,4 +1,4 @@
-# StockHwak
+# StockHawk
 Stocks Feed app for Udacity Android Developer Nanodegree project that demonstrates:
 Finding and handling error cases, adding accessibility features, allowing for localization, adding a widget, and adding a library.
 
